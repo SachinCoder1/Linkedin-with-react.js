@@ -44,6 +44,7 @@ function Navbar(props) {
                 <MainIcons>
                     <NotificationsIcon style={{ fontSize: "30px" }} />
                     <span>Notifications</span>
+                    
                 </MainIcons>
                 <MainIcons>
                     {props.user && props.user.photoURL ? <img src={props.user.photoURL} style={{ width: "30px" }} alt="" /> : <PersonIcon style={{ fontSize: "30px" }} />}
