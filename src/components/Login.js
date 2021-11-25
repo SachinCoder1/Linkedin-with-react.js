@@ -9,7 +9,6 @@ import { useNavigate } from 'react-router-dom';
 function Login(props) {
     let navigate = useNavigate()
     return (
-
         <LoginCont>
             {props.user && navigate('/home')}
 
