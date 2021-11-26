@@ -179,8 +179,5 @@ span{
     color: white;
     border: 1px solid white;
 }
-
-
-
 }
 `
