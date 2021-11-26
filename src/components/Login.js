@@ -11,7 +11,6 @@ function Login(props) {
     return (
         <LoginCont>
             {props.user && navigate('/home')}
-
             <Nav>
                 <LeftNav>
                     <span>Linked</span>
