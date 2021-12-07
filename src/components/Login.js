@@ -7,6 +7,7 @@ import { signInFunc } from '../actions'
 import { useNavigate } from 'react-router-dom';
 
 function Login(props) {
+    
     let navigate = useNavigate()
     return (
         <LoginCont>
